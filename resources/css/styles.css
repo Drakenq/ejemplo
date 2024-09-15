@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    /* border-bottom: 1px solid #ddd; Eliminado para quitar la línea */
+    max-width: 1000px;
+    margin: 0 auto; 
+    box-sizing: border-box; 
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+header div {
+    text-align: center;
+    max-width: 600px;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin: 5px 0;
+}
+
+header h3 {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.section {
+    padding: 20px;
+    border-bottom: none; /* Cambiado a none para eliminar la línea */
+    background-color: #fff;
+    max-width: 1000px; 
+    margin: 0 auto; 
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-top: 0;
+    color: #38678f;
+}
+
+.skills ul,
+.experience ul,
+.education ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li,
+.experience li,
+.education li {
+    margin-bottom: 10px;
+}
+
+/* Ajustes para pantallas superiores a 850px */
+@media (min-width: 850px) {
+    header {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        gap: 20px;
+    }
+
+    header img {
+        width: 150px;
+        height: 150px;
+    }
+
+    header div {
+        text-align: left;
+    }
+}
+
+/* Ajustes para pantallas inferiores a 850px */
+@media (max-width: 850px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+}

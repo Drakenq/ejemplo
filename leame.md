@@ -1,2 +1,3 @@
 - Use siempre LiveServe para ejecutar sus proyectos.
 - Si no tiene activado el formateo de código al guardar, dé formato a su código antes de subirlo al repositorio
+- Profesor apiadese de mi, porque yo no soy el mejor guerrero de Dios.
